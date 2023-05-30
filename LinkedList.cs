@@ -25,7 +25,7 @@ namespace DataStructure
             }
             Console.WriteLine("{0} is added in Linked List",node.Data);
         }
-        public void Display()
+       /* public void Display()
         {
             Node temp = head;
             if (head == null)
@@ -39,6 +39,6 @@ namespace DataStructure
                 Console.Write("| "+temp.Data+" ||");
                 temp = temp.next;
             }           
-        }
+        }*/
     }
 }

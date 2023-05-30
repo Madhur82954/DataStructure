@@ -10,7 +10,7 @@ namespace DataStructure
             linked.AddNode(56);
             linked.AddNode(30);
             linked.AddNode(70);
-            linked.Display();
+            //linked.Display();
         }
     }
 }
