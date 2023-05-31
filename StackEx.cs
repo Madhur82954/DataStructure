@@ -57,5 +57,13 @@ namespace DataStructure
                 Console.WriteLine("Peek element is : " + top.Data);
             }
         }
+        public void IsEmpty()
+        {
+            while (top != null)
+            {
+                peek();
+                pop();
+            }
+        }
     }
 }
