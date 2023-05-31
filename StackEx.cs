@@ -46,5 +46,16 @@ namespace DataStructure
                 top = top.next;
             }
         }
+        public void peek()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("Stack is Empty");
+            }
+            else
+            {
+                Console.WriteLine("Peek element is : " + top.Data);
+            }
+        }
     }
 }

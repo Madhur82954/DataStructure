@@ -19,6 +19,7 @@ namespace DataStructure
             stack.Push(30);
             stack.Push(56);
             stack.Display();
+            stack.peek();
            // Console.WriteLine("\n\n");
            // stack.pop();
             //stack.Display(); 
