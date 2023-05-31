@@ -40,5 +40,31 @@ namespace DataStructure
                 temp = temp.next;
             }           
         }
+        public void DeleteNode()
+        {
+            Node temp = head;
+            if(head == null)
+            {
+                Console.WriteLine("Linked List is Empty");
+            }
+            else
+            {
+                head = head.next;
+            }
+        }
+        /*public void AddReverse(int data)
+        {
+            Node newnode = new Node(data);
+            if (head == null)
+            {
+                head = newnode;
+            }
+            else
+            {
+                Node temp = head;
+                head.next = newnode;
+                temp.next = null;
+            }
+        }*/
     }
 }
