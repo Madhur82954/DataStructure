@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;       
 using System.Collections.Generic;
 using System.Text;
 
@@ -52,7 +52,7 @@ namespace DataStructure
                 head = head.next;
             }
         }
-        /*public void AddReverse(int data)
+        public void AddReverse(int data)
         {
             Node newnode = new Node(data);
             if (head == null)
@@ -63,8 +63,8 @@ namespace DataStructure
             {
                 Node temp = head;
                 head.next = newnode;
-                temp.next = null;
+                head = newnode;
             }
-        }*/
+        }
     }
 }
